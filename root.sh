@@ -26,7 +26,7 @@ if [ "$p" = "O" ];then
 		echo "a l'aide des touches volume, selectionnez 'Recovery Mode', puis appuyez sur POWER"
 		echo "appuyez sur reboot, puis recovery, ici il vous demande de rooter la tablette, glissez votre doigt sur la zone bleue"
 		echo "la tablette doit redemarrer en mode recovery, maintenant appuyez sur 'reboot'"
-		echo " puis bootloader, mainteant vous voyez un Android ? est elle prete ? on termine le root ? O/N"
+		echo " puis bootloader, maintenant vous voyez un Android ? est elle prete ? on termine le root ? O/N"
 		read boot_stage2
 			if [ "$boot_stage1" = "O" ];then	
 			  sudo ./fastboot boot CF-Auto-Root-flo-razor-nexus7.img
